@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <!--<label class="informativo">Probabilidad</label>-->
+            <!--<input type="range" class="informativo" id="probabilidad"/>-->
+            <input type="button" class="informativo" onclick="cargarPlano()" id="cargar" value="Generar Condiciones"/>
+           
+        </div>
+        <div>
+            <h3>Condiones</h3>
+            <table>
+                <th>Objeto</th>
+                <th> Cantidad</th>
+                <tr>
+                    <td>Terreno</td>
+                    <td id="tdTerreno"></td>
+                </tr>
+                <tr>
+                    <td>Viento</td>
+                    <td id="tdViento"></td>
+                </tr>
+                <tr>
+                    <td>Pasto Seco</td>
+                    <td id="tdPastoSeco"></td>
+                </tr>
+                <tr>
+                    <td>Pasto Verde</td>
+                    <td id="tdPastoVerde"></td>
+                </tr>
+                <tr>
+                    <td>Madera Seca</td>
+                    <td id="tdMaderaSeca"></td>
+                </tr>
+                <tr>
+                    <td>Madera</td>
+                    <td id="tdMadera"></td>
+                </tr>
+            </table>
+        </div>
+        <input type="button" style="display:none" class="informativo" onclick="quemar()" id="quemar" value="Simular"/>
+           
+        <div id="terreno" >
+            
+        </div>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>

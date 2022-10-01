@@ -1,0 +1,23 @@
+.cuadroTerreno{
+    border: 1px dotted;
+    float:left;
+    width: 4%;
+    height: 50px;
+}
+
+.cuadroTerrenoCentro{
+    border-right-style: double;
+    border-right-color: orangered;
+}
+
+.informativo{
+    margin-left: 10px;
+}
+
+#terreno{
+    margin-top: 50px;
+}
+
+table,td,th,tr{
+    border: 1px solid;
+}
